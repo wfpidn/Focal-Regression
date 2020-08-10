@@ -12,6 +12,8 @@ Indonesia data are provided for example analysis, both data came from below.
 - Monthly Water History. 
 This Monthly History collection holds the entire history of water detection on a month-by-month basis. The collection contains 430 images, one for each month between March 1984 and December 2019. Each pixel was individually classified into water / non-water using an expert system and the results were collated into a monthly history for the entire time period and two epochs (1984-1999, 2000-2019) for change detection. Downloaded from Google Earth Engine: https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_2_MonthlyHistory
 
+WDay1_03.tif is the maximum 1-day rainfall value in March for the period 1981 - 2019
+gi03.tif is result from ln(x/(1-x)), where x is the percentage of historical flood (pixel with water) occurrence in March for the period 1984-2019, calculate based on Monthly Water History data.
 
 ## Contents
 - Example of raster file (GeoTIFF).
@@ -24,13 +26,13 @@ This Monthly History collection holds the entire history of water detection on a
 
 ## Example output
 - Slope map.
-![Slope](/img/Rplot_slope.png)
+  ![Slope](/img/Rplot_slope.png)
 - Intercept map.
-![Intercept](/img/Rplot_intercept.png)
+  ![Intercept](/img/Rplot_intercept.png)
 - Pvalue for slope.
-![PvalueSlope](/img/Rplot_pvalue_slope.png)
+  ![PvalueSlope](/img/Rplot_pvalue_slope.png)
 - Pvalue for intercept.
-![PvalueIntercept](/img/Rplot_pvalue_intercept.png)
+  ![PvalueIntercept](/img/Rplot_pvalue_intercept.png)
 
 
 ## References
