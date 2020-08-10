@@ -15,21 +15,22 @@ This Monthly History collection holds the entire history of water detection on a
 
 ## Contents
 - Example of raster file (GeoTIFF).
-  - Input: gi03.tif, WDay1_03.tif
-  - Output: idn_cli_day1_03_mar_slope.tif, idn_cli_day1_03_mar_intercept.tif, idn_cli_day1_03_mar_pvalue_slope.tif, idn_cli_day1_03_mar_pvalue_intercept.tif.
+  - input
+  - output
 - R script for the focal-regression.
-- Map output in PNG
+- Map output in PNG format
+  - img
 
 
 ## Example output
 - Slope map.
-![Slope](/Rplot_slope.png)
+![Slope](/img/Rplot_slope.png)
 - Intercept map.
-![Intercept](/Rplot_intercept.png)
+![Intercept](/img/Rplot_intercept.png)
 - Pvalue for slope.
-![PvalueSlope](/Rplot_pvalue_slope.png)
+![PvalueSlope](/img/Rplot_pvalue_slope.png)
 - Pvalue for intercept.
-![PvalueIntercept](/Rplot_pvalue_intercept.png)
+![PvalueIntercept](/img/Rplot_pvalue_intercept.png)
 
 
 ## References
