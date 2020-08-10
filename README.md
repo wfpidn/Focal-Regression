@@ -7,8 +7,11 @@ The result will be use as input to generate flood probability when the daily rai
 
 ## Data
 Indonesia data are provided for example analysis, both data came from below.
-- 39 years (1981-2019) daily rainfall data used in the analysis are downloaded from Climate Hazards Center - UC Santa Barbara (https://chc.ucsb.edu/data-sets/chirps), and 
-- Monthly Water History, This Monthly History collection holds the entire history of water detection on a month-by-month basis. The collection contains 430 images, one for each month between March 1984 and December 2019. Each pixel was individually classified into water / non-water using an expert system and the results were collated into a monthly history for the entire time period and two epochs (1984-1999, 2000-2019) for change detection. Downloaded from Google Earth Engine: https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_2_MonthlyHistory
+- Daily rainfall estimate.
+39 years (1981-2019) daily rainfall data used in the analysis are downloaded from Climate Hazards Center - UC Santa Barbara (https://chc.ucsb.edu/data-sets/chirps), and 
+- Monthly Water History. 
+This Monthly History collection holds the entire history of water detection on a month-by-month basis. The collection contains 430 images, one for each month between March 1984 and December 2019. Each pixel was individually classified into water / non-water using an expert system and the results were collated into a monthly history for the entire time period and two epochs (1984-1999, 2000-2019) for change detection. Downloaded from Google Earth Engine: https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_2_MonthlyHistory
+
 
 ## Contents
 - Example of raster file (GeoTIFF).
@@ -17,7 +20,8 @@ Indonesia data are provided for example analysis, both data came from below.
 - R script for the focal-regression.
 - Map output in PNG
 
-## Example output in PNG
+
+## Example output
 - Slope map.
 ![Slope](/Rplot_slope.png)
 - Intercept map.
@@ -27,8 +31,10 @@ Indonesia data are provided for example analysis, both data came from below.
 - Pvalue for intercept.
 ![PvalueIntercept](/Rplot_pvalue_intercept.png)
 
+
 ## References
 - https://gis.stackexchange.com/questions/278979/linear-regression-between-every-3×3-pixels-between-two-rasters-using-r/278985#278985 
+
 
 ## Contact
 Using above reference, the code re-write by Anggita Annisa - former VAM intern. If you have any question related to this tool and application, contact [Benny Istanto](https://github.com/bennyistanto)
