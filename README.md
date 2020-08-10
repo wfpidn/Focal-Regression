@@ -14,7 +14,7 @@ This Monthly History collection holds the entire history of water detection on a
 
 ```WDay1_03.tif``` is the maximum 1-day rainfall value in March for the period 1981 - 2019, and
 
-```gi03.tif``` is result from ```ln(x/(1-x))```, where x is the percentage of historical flood (pixel with water) occurrence in March for the period 1984-2019, calculate based on Monthly Water History data.
+```gi03.tif``` is result from ```ln(x/(1-x))```, where ```x``` is the percentage of historical flood (pixel with water) occurrence in March for the period 1984-2019, calculated based on Monthly Water History data.
 
 ## Contents
 - Example of raster file (GeoTIFF).
