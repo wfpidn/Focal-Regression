@@ -1,6 +1,6 @@
 # Focal (linear) regression between every 5x5 pixels group of cells of two rasters
 
-As part of Extreme Rainfall model development activities (When the rainfall trigger a flood?), and based on two rasters with same resolution and dimension, we would like to create a new raster of ```SLOPE (a)``` and ```INTERCEPT (b)``` by performing linear regression between every ```5×5``` pixels of the two rasters, such that each pixel of the ```SLOPE``` and ```INTERCEPT``` will hold the regression ```slope``` and ```intercept``` value obtained from linear regression of the corresponding ```5×5``` pixels that surround that pixel.
+As part of Extreme Rainfall model development activities (When the rainfall will trigger a flood?), and based on two rasters with same resolution and dimension, we would like to create a new raster of ```SLOPE (a)``` and ```INTERCEPT (b)``` by performing linear regression between every ```5×5``` pixels of the two rasters, such that each pixel of the ```SLOPE``` and ```INTERCEPT``` will hold the regression ```slope``` and ```intercept``` value obtained from linear regression of the corresponding ```5×5``` pixels that surround that pixel.
 
 ## Application
 The result will be use as input to generate flood probability when the daily rainfall forecast is available. 
